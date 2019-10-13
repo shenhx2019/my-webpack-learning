@@ -1,0 +1,9 @@
+$primary-color: #09c;
+body{
+    margin:0;
+    padding: 0;
+}
+
+div#app{
+    background: $primary-color;
+}

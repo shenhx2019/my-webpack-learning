@@ -1,0 +1,43 @@
+{
+  "name": "my-webpack-2019",
+  "version": "1.0.0",
+  "description": "webpack demo for learning",
+  "main": "index.js",
+  "author": "shenhx",
+  "license": "MIT",
+  "scripts": {
+    "raw-build": "npx webpack --entry=./src/index.js --output-filename=bundle.js --mode=development",
+    "build": "webpack",
+    "dev": "webpack-dashboard -- webpack-dev-server"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "size-plugin": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^4.2.0",
+    "force-strict-loader": "D:\\DemoTest\\webpack\\force-strict-loader",
+    "happypack": "^5.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss": "^7.0.18",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.1",
+    "webpack-bundle-analyzer": "^3.5.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dashboard": "^3.2.0",
+    "webpack-dev-server": "^3.8.2"
+  }
+}

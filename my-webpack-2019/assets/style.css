@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div#app{
+    background: #187238;
+    font-size: 15px;
+}
